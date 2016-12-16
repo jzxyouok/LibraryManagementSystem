@@ -38,8 +38,8 @@ Yii2开发，版本2.0.9
 
 #### 0x00 读者   
 
-readers（ reader-id（读者编号）,reader-name（姓名）, sex（性别）,birthday（出生日期）,mail（邮件）, mobile（手机）, card-name（证件名称）,card-id（证件编号）,level（会员级别）, （办证日期））    
-#### 0x01 图书    
+readers（ reader-id（读者编号）,reader-name（姓名）, sex（性别）,birthday（出生日期）,mail（邮件）, mobile（手机）, card-name（证件名称）,card-id（证件编号）,level（会员级别）, （办证日期））    //建表遗留问题，mail字段用phone表示     
+#### 0x01 图书    
 books（book-id（图书编号）,book-name（书名）, author（作者）,publishing（出版社）, category-id（类别）,price（单价）, date-in（入库日期）, quantity–in（入库数量）, quantity–out（出借数量）, quantity–loss（遗失数量））    
 #### 0x02 借阅  
 borrow（reader-id（读者编号）, book-id（图书编号）, date-borrow（出借日期）, date-return（应还日期）, loss（遗失))  
