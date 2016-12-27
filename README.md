@@ -3,6 +3,7 @@ Developed by Yii2. Book Mnagement System or BookMis.
 
 # 图书管理系统
 Yii2开发，版本2.0.9
+mysql，导入bookadmin.sql
 ## 功能
 
 #### 0x00 认证
