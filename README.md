@@ -1,6 +1,6 @@
 # BookMnagementSystem
-Developed by Yii2. Book Mnagement System or BookMis. 
-
+Book Mnagement System or BookMis. 
+Powered By Yii2 framework.
 # 图书管理系统
 Yii2开发，版本2.0.9    
 mysql，导入bookadmin.sql
