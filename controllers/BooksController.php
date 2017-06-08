@@ -92,7 +92,9 @@ class BooksController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->bookid]);
         } else {
+            $data = Category::find()->asArray()->all();
             return $this->render('update', [
+                'data'=>$data,
                 'model' => $model,
             ]);
         }
